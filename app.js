@@ -95,4 +95,6 @@ app.get("/campgrounds/:id", function(req,res){
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Server Started!");
+
+    // test
 });
